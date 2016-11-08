@@ -4,165 +4,160 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>Portfolio | Keyan Estahbanaty - Web Developer</title>
+    <meta name="description" content="Keyan Estahbanaty's personal portfolio">
     <link rel="stylesheet" href="css/app.css">
+  	<link rel="shortcut icon" href="assets/images/favicons/favicon.ico">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   </head>
   <body>
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="callout">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
-            </div>
+    <header>
+      <span id="top"></span>
+      <nav>
+      <div data-sticky-container>
+        <div class="top-bar" data-sticky data-options="marginTop:0;" style="width:100%" data-top-anchor="about">
+          <div class="top-bar-title">
+            <a href="#" id="logo-nav"><img class="logo" src="assets/images/logo1.png"/></a>
+            <span class="responsive-menu" data-responsive-toggle="responsive-menu" data-hide-for="large">
+              <button class="menu-icon light" type="button" data-toggle></button>
+            </span>
           </div>
-          <div class="row">
-            <div class="large-4 medium-4 medium-push-2 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
+          <div id="responsive-menu">
+            <div class="top-bar-right">
+              <ul class="dropdown menu vertical medium-horizontal" data-responsive-menu="accordion medium-dropdown">
+                <li><a class="menuItem" id="about-nav" href="#about">About</a></li>
+                <li><a class="menuItem" id="skills-nav" href="#skills">Skill Set</a></li>
+                <li class="is-dropdown-submenu-parent opens-right">
+                  <a href="#web-work" id="work-nav">Work</a>
+                  <ul class="menu vertical">
+                    <li><a class="menuItem" id="work-nav" href="#web-work">Web</a></li>
+                    <li><a class="menuItem" href="https://soundcloud.com/maxtheriot" target="_blank">Music</a></li>
+                  </ul>
+                </li>
+                <li><a href="#resume" id="resume-nav">Resume</a></li>
+                <li><a href="#contact" id="contact-nav">Contact</a></li>
+              </ul>
             </div>
-            <div class="large-4 medium-4 medium-pull-2 columns">
-              <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>        
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
-
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="primary callout">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.callout element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
-          </div>
+      </nav>
+      <div class="inner row">
+        <div class="hero-box small-10 small-centered columns">
+          <h1 class="small-8 small-centered columns">
+              Keyan Estahbanaty
+          </h1>
+          <span class="hero-small-text"><p class="small-8 medium-8 small-centered columns">
+            Hi, I'm a Web Developer based in Boston, MA.</span>
+          </p>
         </div>
         <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="primary callout">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="primary callout">
-              <p>Six columns</p>
-            </div>
+          <div class="learn-more small-10 small-centered columns">
+            <a href="#about"><p>Learn More</p><i class="chevron fa fa-chevron-circle-down fa-4x" aria-hidden="true"></i></a>
           </div>
         </div>
+      </div>
+    </header>
+    <section id="about">
+        <div class="row about">
+          <div class="small-10 medium-8 small-centered columns">
+            <h2 class="heading">I Love Pushing Myself to New Limits</h2>
+            <div class="small-10 medium-3 small-centered columns heading-border"></div>
+            <img class="portrait" src="assets/images/portrait.jpg" alt="portrait">
+            <p class="long-text">
+              For as long as I can remember I have challenged myself to become a better person. I strive to leave every person and situation better than when I found it. This is what lead me to web development: I want to be part of the process that helps make the world a better place.
+            </p>
+            <p class="long-text">
+              After years working in financial services, consumer goods, and even having my hand at starting my own e-commerce company, I'm looking for the next great tech company to call home.
+            </p>
+          </div>
+        </div>
+    </section>
+    <section id="skills">
         <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="primary callout">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="primary callout">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="primary callout">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-        
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="input-group">
-                  <input type="text" placeholder="small-9.columns" class="input-group-field" />
-                  <span class="input-group-label">.com</span>
+          <div class="skillset small-10 small-centered medium-8 columns">
+            <h2 class="heading">My Skill Set</h2>
+            <div class="small-10 medium-3 small-centered columns heading-border"></div>
+            <div class="logos row">
+              <div class="small-10 medium-10 large-8 small-centered columns">
+                <div class="skills-logo small-6 medium-3 columns">
+                    <img class="logo-img" src="assets/images/tech_icons/html-logo.png">
+                    <strong>HTML5</strong>
+                </div>
+                <div class="skills-logo small-6 medium-3 columns">
+                    <img class="logo-img" src="assets/images/tech_icons/css-logo.png">
+                    <strong>CSS3</strong>
+                </div>
+                <div class="skills-logo small-6 medium-3 columns">
+                    <img class="logo-img" src="assets/images/tech_icons/js-logo.png">
+                    <strong>JavaScript</strong>
+                </div>
+                <div class="skills-logo small-6 medium-3 columns">
+                    <img class="logo-img" src="assets/images/tech_icons/react-logo.png">
+                    <strong>React</strong>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
+            <div class="logos row">
+              <div class="small-10 medium-10 large-8 small-centered columns">
+                <div id="ruby" class="skills-logo small-6 medium-3 columns">
+                    <img class="logo-img" src="assets/images/tech_icons/ruby-logo.png">
+                    <strong>Ruby</strong>
+                </div>
+                <div id="rails" class="skills-logo small-6 medium-3 columns">
+                    <img class="logo-img" src="assets/images/tech_icons/Rails-logo.png">
+                    <strong>Rails</strong>
+                </div>
+                <div id="sinatra" class="skills-logo small-6 medium-3 columns">
+                    <img class="logo-img" src="assets/images/tech_icons/sinatra-logo.png">
+                    <strong>Sinatra</strong>
+                </div>
+                <div id="postgres" class="skills-logo small-6 medium-3 columns">
+                    <img class="logo-img" src="assets/images/tech_icons/postgres-logo.png">
+                    <strong>PostgreSQL</strong>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
-      </div>     
-
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="button">Simple Button</a><br/>       
-        <a href="#" class="success button">Success Btn</a><br/>
-        <a href="#" class="alert button">Alert Btn</a><br/>
-        <a href="#" class="secondary button">Secondary Btn</a></p>           
-        <div class="callout">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/sites/docs/" class="small button">Go to Foundation Docs</a>          
+            <p class="long-text">
+                While learning to program at <a href="http://launchacademy.com" target="_blank">Launch Academy</a>, I became familiar with both server and client side technologies, with the focus being on Rails and React.
+                More importantly, I learned how learn and I hope to apply that skll to gain expereince with more languages and frameworks as my career progresses.
+            </p>
         </div>
       </div>
-    </div>
+    </section>
+    <footer id="contact">
+      <div class="row">
+        <div class="small-11 medium-6 columns">
+            <h3>Let's Connect</h3>
+            <ul class="connect-icons">
+                <li><a href="http://linkedin.com/in/keyanest" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
+                <li><a href="http://github.com/keyanest" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
+            </ul>
+            <button id="resume" class="resume-btn button"><a href="https://www.linkedin.com/in/keyanest" class="btn">View My Résumé <i class="ion-ios-arrow-thin-right"></i></a></button>
+        </div>
+        <div class="small-12 medium-6 columns form-box">
+            <form  class="form" action="https://formspree.io/keyan.est@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Your name" required>
+                <input type="text" name="_replyto" id="reply-field"placeholder="Your email" required /><br>
+                <textarea name="message" rows="4" placeholder="Your message" required></textarea><br>
+                <input type="submit" value="Send" class="button">
+                <input type="text" name="_gotcha" style="display:none" />
+            </form>
+        </div>
+        <div class="row">
+          <div class="copyright small-12 medium-4 small-centered columns">
+            <p>
+                Copyright &copy; 2016 by Keyan Estahabanty. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/what-input/what-input.js"></script>
     <script src="bower_components/foundation-sites/dist/foundation.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/jquery-scrollto/lib/jquery-scrollto.js"></script>
   </body>
 </html>
